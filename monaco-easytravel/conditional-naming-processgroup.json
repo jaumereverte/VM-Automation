@@ -1,0 +1,22 @@
+{
+ "displayName": "{{ .name }}",
+ "enabled": true,
+ "nameFormat": "[{HostGroup:Name}] - {ProcessGroup:KeyContainerName}",
+ "rules": [
+  {
+   "comparisonInfo": {
+    "caseSensitive": null,
+    "negate": false,
+    "operator": "EXISTS",
+    "type": "STRING",
+    "value": null
+   },
+   "key": {
+    "attribute": "PROCESS_GROUP_PREDEFINED_METADATA",
+    "dynamicKey": "CONTAINER_NAME",
+    "type": "PROCESS_PREDEFINED_METADATA_KEY"
+   }
+  }
+ ],
+ "type": "PROCESS_GROUP"
+}

@@ -1,0 +1,8 @@
+delete:
+  - conditional-naming-service/service-naming
+  - conditional-naming-service/service-naming-nginx
+  - conditional-naming-processgroup/processgroup-naming
+  - conditional-naming-host/host-naming
+  - auto-tag/tag-app
+  - auto-tag/tag-env
+  
